@@ -1,0 +1,23 @@
+.autocomplete {
+    position: absolute;
+    background-color: white; /* Corregir "while" a "white" */
+    border: 1px solid #ddd;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1000;
+}
+
+.autocomplete a {
+    padding: 5px 10px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.autocomplete a:hover {
+    background-color: #ddd;
+}
